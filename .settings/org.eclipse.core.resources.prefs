@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebRoot/MyJsp.jsp=UTF-8
+encoding//src/com/product/dbutil/jdbc/login/action/LoginJsonAction.java=UTF-8
+encoding//src/com/product/dbutil/jdbc/register/action/RegisterJsonAction.java=UTF-8
+encoding//src/com/product/dbutil/order/action/PayOrderAction.java=UTF-8
+encoding//src/com/product/dbutil/product/action/ProductSearchAction.java=UTF-8
+encoding/<project>=UTF-8

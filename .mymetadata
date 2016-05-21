@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="manager"
+  id="myeclipse.1428061277876"
+  context-root="/manager"
+  j2ee-spec="6.0"
+  archive="manager.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

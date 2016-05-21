@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>RegisterAction</servlet-name>
+    <servlet-class>com.product.dbutil.jdbc.register.action.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.product.dbutil.jdbc.login.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductAction</servlet-name>
+    <servlet-class>com.product.dbutil.product.action.ProductAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginJsonAction</servlet-name>
+    <servlet-class>com.product.dbutil.jdbc.login.action.LoginJsonAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterJsonAction</servlet-name>
+    <servlet-class>com.product.dbutil.jdbc.register.action.RegisterJsonAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductAction_forAndroid</servlet-name>
+    <servlet-class>com.product.dbutil.product.action.ProductAction_forAndroid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductSearchAction</servlet-name>
+    <servlet-class>com.product.dbutil.product.action.ProductSearchAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CategoryproductSearchAction</servlet-name>
+    <servlet-class>com.product.dbutil.product.androidaction.CategoryproductSearchAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertGoodsCartAction</servlet-name>
+    <servlet-class>com.product.dbutil.product.androidaction.InsertGoodsCartAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchGoodscar</servlet-name>
+    <servlet-class>com.product.dbutil.product.androidaction.SearchGoodscarAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteInGoodscarAction</servlet-name>
+    <servlet-class>com.product.dbutil.product.androidaction.DeleteInGoodscarAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayOrderAction</servlet-name>
+    <servlet-class>com.product.dbutil.order.action.PayOrderAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdataUserAction</servlet-name>
+    <servlet-class>com.product.dbutil.jdbc.login.action.UpdataUserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchOrderInfoAction</servlet-name>
+    <servlet-class>com.product.dbutil.order.action.SearchOrderInfoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendGoodEvaluationAction</servlet-name>
+    <servlet-class>com.product.dbutil.goodevalution.action.SendGoodEvaluationAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGoodEvaluationAction</servlet-name>
+    <servlet-class>com.product.dbutil.goodevalution.action.GetGoodEvaluationAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Up_profile_imageAction</servlet-name>
+    <servlet-class>com.product.dbutil.userinfo.action.Up_profile_imageAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdataPswdAction</servlet-name>
+    <servlet-class>com.product.dbutil.userinfo.action.UpdataPswdAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductTestAction</servlet-name>
+    <servlet-class>com.product.dbutil.product.action.ProductTestAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SpikeGoodsAction</servlet-name>
+    <servlet-class>com.product.dbutil.spikegoods.action.SpikeGoodsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMiaoshaProduct</servlet-name>
+    <servlet-class>com.product.dbutil.spikegoods.action.AddMiaoshaProduct</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <filter>
+    <filter-name>MyFilter</filter-name>
+    <filter-class>com.product.dbutil.filter.MyFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>MyFilter</filter-name>
+    <url-pattern>/main.jsp</url-pattern>
+  </filter-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/servlet/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/servlet/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductAction</servlet-name>
+    <url-pattern>/servlet/ProductAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginJsonAction</servlet-name>
+    <url-pattern>/servlet/LoginJsonAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterJsonAction</servlet-name>
+    <url-pattern>/servlet/RegisterJsonAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductAction_forAndroid</servlet-name>
+    <url-pattern>/servlet/ProductAction_forAndroid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductSearchAction</servlet-name>
+    <url-pattern>/servlet/ProductSearchAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryproductSearchAction</servlet-name>
+    <url-pattern>/servlet/CategoryproductSearchAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertGoodsCartAction</servlet-name>
+    <url-pattern>/servlet/InsertGoodsCartAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchGoodscar</servlet-name>
+    <url-pattern>/servlet/SearchGoodscarAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteInGoodscarAction</servlet-name>
+    <url-pattern>/servlet/DeleteInGoodscarAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayOrderAction</servlet-name>
+    <url-pattern>/servlet/PayOrderAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdataUserAction</servlet-name>
+    <url-pattern>/servlet/UpdataUserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchOrderInfoAction</servlet-name>
+    <url-pattern>/servlet/SearchOrderInfoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendGoodEvaluationAction</servlet-name>
+    <url-pattern>/servlet/SendGoodEvaluationAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodEvaluationAction</servlet-name>
+    <url-pattern>/servlet/GetGoodEvaluationAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Up_profile_imageAction</servlet-name>
+    <url-pattern>/servlet/Up_profile_imageAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdataPswdAction</servlet-name>
+    <url-pattern>/servlet/UpdataPswdAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductTestAction</servlet-name>
+    <url-pattern>/servlet/ProductTestAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SpikeGoodsAction</servlet-name>
+    <url-pattern>/servlet/SpikeGoodsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMiaoshaProduct</servlet-name>
+    <url-pattern>/servlet/AddMiaoshaProduct</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,8 @@
+CREATE TABLE `product` (
+  `proid` varchar(64) NOT NULL DEFAULT '',
+  `proname` varchar(64) DEFAULT NULL,
+  `proprice` varchar(64) DEFAULT NULL,
+  `proaddress` varchar(64) DEFAULT NULL,
+  `proimage` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`proid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
